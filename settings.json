@@ -6,9 +6,9 @@
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.17.1"
+    "ip": "game3.falixserver.net",
+    "port": "28598",
+    "version": "1.18.1"
   },
 
   "position": {
@@ -25,12 +25,12 @@
     },
 
     "anti-afk": {
-      "enabled": false,
+      "enabled": true,
       "sneak": false
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
       "repeat-delay": 60,
 
@@ -38,12 +38,12 @@
         "I'm a regular player ",
         "My owner is urFate_ ",
         "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "minecraft"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
